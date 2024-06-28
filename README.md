@@ -19,9 +19,9 @@ Topics
    mvn clean install
 
 3. **Run the Console Application**:
-  ```bash
-  java -jar target/ChatApp-1.0.jar'
-  ```
+   ```bash
+   java -jar target/ChatApp-1.0.jar'
+   ```
 4. **Submit the Flink Job**
-  ```bash
-  flink run -c flink.Main target/ChatApp-1.0.jar
+   ```bash
+   flink run -c flink.Main target/ChatApp-1.0.jar
